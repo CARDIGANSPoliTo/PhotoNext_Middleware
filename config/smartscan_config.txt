@@ -1,0 +1,54 @@
+################################################################################
+# LIB SMARTSCAN CONFIGURATION
+#
+# Each option can be specified as a pair (KEY, value), separated by one or more
+# whitespace characters.
+#
+# The '#' character can be used to comment lines.
+#
+# The default value is used if the option is either commented or not specified.
+#
+################################################################################
+
+# Number of gratings per channel (default: 16)
+# GRATINGS 16
+
+# Number of channels (default: 4)
+# CHANNELS 4
+
+# smartscan demo mode (default: 12)
+# DEMO 12
+
+# raw message speed (default: 0)
+# RAW_SPEED 0
+
+# continous data frequency multiplier (default: 25)
+# CONT_SPEED 25
+
+# scan speed in ns (default: 400)
+# SCAN_SPEED 400
+
+# first scan frequency (default: 0)
+# FIRST_FREQ 0
+
+# interrogator network interface (default: eth0)
+# SSI_NETIF eth0
+
+# interrogator address (default: 10.0.0.150)
+# SSI_IP 10.0.0.150
+
+# host pc address (default: 10.0.0.2)
+# HOST_IP 10.0.0.2
+
+# subnet mask (default: 255.255.255.0)
+# SUBNET_MASK 255.255.255.0
+
+# serial (default: 0x000228de)
+# SERIAL 0x000228de
+
+# gateway address (default: 10.0.0.2)
+# GATEWAY 10.0.0.2
+
+# Log level verbosity (POSIX) from 0 to 7 (default: 24 - LOG_DEBUG)
+# LOG_LEVEL 7
+

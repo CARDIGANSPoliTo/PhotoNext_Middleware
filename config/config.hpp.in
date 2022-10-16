@@ -1,0 +1,3 @@
+// options configured through CMakeLists.txt file
+#define EMU_LOCAL @EMU_LOCAL@
+#define DUMP_CONFIG @DUMP_CONFIG@
